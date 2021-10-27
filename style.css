@@ -126,7 +126,8 @@ header div p {
     flex: 0 0 45%;
 }
 .intro h4,
-.gallery h4 { 
+.gallery h4,
+.services h4 { 
     text-transform: uppercase;
     font-size: 2rem;
     color: var(--gray);
@@ -181,4 +182,26 @@ header div p {
 }
 .gallery .buttons button:last-child:hover {
     background: var(--gray);
+}
+/**** services ****/
+.services {
+    padding: var(--py);
+}
+.services article{
+    display: flex;
+    flex-wrap: wrap;
+}
+.services article .col{
+    border: 1px solid red;
+    display: flex;
+    flex: 0 0 50%;
+}
+.services article .col .text{
+     flex: 0 0 70%;
+}
+.services article .col .img{
+    flex: 0 0 30%;   
+}
+.services article .img img {
+    width: 100%;
 }
