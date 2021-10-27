@@ -213,6 +213,7 @@ header div p {
     border-radius: 50%;
     border: 8px solid var(--gray);
     display: block;
+    transition: var(--transition);
 }
 .services article .img img:hover {
     border: 3px solid var(--hover);
